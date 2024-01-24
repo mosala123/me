@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #3b1e5d;
+    color: white;
+    font-family: serif;
+}
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3b1e5d;
+    padding: 10px  13%   0  17%   ;
+    text-transform: capitalize;
+    font-weight: 800;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 14px ;
+    letter-spacing: 1px;
+    z-index: 9999;
+    
+}
+.bar i{
+    font-size: 20px ;
+    display: none;
+}
+.left-head h1{
+    font-size: 20px ;
+}
+.right-head ul  {
+    display: flex;   
+    flex-wrap: wrap;
+    margin-right: 10px ;
+}  
+.right-head ul li {
+    list-style-type: none;
+}
+.right-head ul li a{
+    text-decoration: none; 
+    margin: 0 5px ;
+    color: white;
+    transition: 0.3s ease ;
+}
+.right-head ul li a:hover{
+    border-bottom: 2px solid white;
+    opacity: 0.8 ;
+}
+/* end header */
+ 
+
+
+
+/* start face */
+#home{
+    padding: 70px 44px  ;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutMe{
+    display: flex;
+    /* align-items:s self-end; */
+    justify-content: space-between;
+    flex-direction: column;
+    text-transform: capitalize;
+  
+}
+ .aboutMe h1{
+    font-size: 20px ;
+ }
+ .aboutMe h2{
+    margin:5px ;
+ }
+.aboutMe h1 span{
+    color: orange; 
+    font-size: 39px ;
+}
+.aboutMe p{
+    width: 220px ;
+    flex-wrap: wrap;
+    padding: 10px 0 ;
+    font-size: 13px ;
+    margin: 10px 0  0  0;
+}
+
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px ;
+    margin-bottom: 30px ;
+}
+.socialmedia i{
+    margin-top: 10px  ;
+    transition: 0.3s ease;
+}
+.socialmedia i:hover{
+    opacity: 0.7;
+    transform: scale(1.39);
+}
+.me-my{
+    margin: 10px 0 ;
+}
+.me-my a{
+    color: white;
+    font-weight: 900;
+    border: 2px solid orange;
+    margin: 0 5px 0 0;
+    background-color: orange;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 2px 18px ;
+    font-size: 15px ;
+    text-decoration: none;
+    display: inline-block;
+}
+.me-my a:hover{
+    background: transparent;
+    border: 1px solid orange;
+}
+ 
+.image img{
+    width: 420px;
+    height: 340px;
+}
+
+
+/* end face */
+
+ /* start contentme */
+ .content-me{
+   margin-top: 10px ;
+   margin-bottom: 40px ;
+ }
+.contentme{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contentme a{
+    color: white;
+    background-color: orange;
+    padding: 10px ;
+    margin-bottom: 10px ;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 20px;
+    transition: 0.3s ease ;
+}
+.contentme a:hover{
+background : transparent;
+ border: 2px  solid orange;
+}
+  
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 10% ;
+    flex-wrap: wrap;
+}
+.skills .card{
+    border: 2px solid orange;
+    background-color: orange;
+    padding: 6px ;
+    text-transform: capitalize;
+    margin: 16px  ;
+    border-radius: 6px ;
+    width: 200px ;
+    height: 290px ;
+    text-align: center;
+    transition: 0.3s ease;
+    opacity: 0.99;
+    overflow: hidden;
+}
+.card img{
+    width: 200px;
+    height: 156px;
+    border-radius: 5px ;
+    width: 100%;
+    
+}
+.card h2{
+padding:  5px 0 ;
+font-size: 20px;
+font-weight: bold;
+ 
+}  
+.card:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
+ 
+ /* end contentme */
+
+/* start about me */
+.aboutme{
+    margin: 70px 0 50px 50px    ;
+}
+ .me-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+.aboutme a{ 
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    border: 2px solid orange;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    padding: 5px 8px  ; 
+    display: inline-block;
+}
+.aboutme a:hover{
+    background: transparent;
+    border: 2px solid orange;
+}
+.about{
+    flex-wrap: wrap;
+    width: 90%;
+
+}
+.about ,.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.image-me img{
+    width: 300px;
+    height: 300px;
+    margin-top: -20px ;    
+}
+.about-me{
+    flex-direction: column;
+    margin-top: -60px ;
+    width: 370px ;
+}
+ .about-me p{
+    flex-wrap: wrap;
+   width: 100%;
+    text-align: center;
+    margin: 40px 40px 0 40px   ;
+ }
+
+/* end about me */
+
+
+/* start skillls */
+
+.myskills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   margin-top: 10px ;
+   margin-bottom: 20px ;
+}
+.homeskill{
+    display: flex;
+    align-items: center;
+    
+}
+.homeskill a{
+    color: white;
+    background: orange;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 4px 10px ;
+    transition: 0.3s ease;
+    display: inline-block;
+    margin-bottom: 20px ;
+}
+.homeskill a:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+  
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px ;
+    margin: 10px   10px 40px ;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.card-skills{
+    margin: 5px ;
+    border: 1px solid orange;
+    width: 150px ;
+    height: 220px ;
+    padding: 1px;
+    border-radius: 4px;
+   box-shadow: 1px 1px 28px 1px orange;
+    transition: 0.3s ease;
+    opacity: .8;
+    display: block;
+   
+}
+.card-skills:hover{
+    margin-top: 10px ;
+    opacity: 1;
+}
+.card-skills img{
+    width: 100%;
+    height: 70%;
+    border-radius:3px   3px 0 0    ;
+}
+.p{
+    width: 90%;
+    background-color: orange;
+    border: 2px solid orange;
+    height: 18px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px  10px ;
+}
+
+/* end skillls */
+
+/* start project */
+.progect .homeclick {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.homeclick a{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 9px ;
+    padding: 6px 10px  ;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 20px ;
+    display: inline-block;
+    transition: 0.3s ease;
+    color: white;
+}
+.homeclick a:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+}
+.cardpro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2px 40px ;
+    text-align: center;
+}
+.cardproject{
+    border: 1px solid orange;
+     
+    margin: 10px ;
+    flex-direction: column; 
+    border-radius: 5px ;
+    width: 200px;
+    height: 180px ;
+    margin: 9px ;
+    transition: 0.3s ease;
+}
+.cardproject:hover{
+     transform: scale(1.039);
+}
+.cardproject img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+ 
+/* end project */
+
+/* start form */
+.form-box{
+    padding:40px 0;
+}
+.form-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-home a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid orange;
+    background-color: orange;
+    padding:  8px 10px ;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+.form-box a:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+}
+.form-me  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 10% ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 ;
+}
+form .first-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+form .first-name input{
+    outline: none;
+    border: none;
+    background: rgb(213, 200, 175);
+    border-radius: 20px;
+    height: 29px;
+    margin: 10px 0 ;
+    padding: 5px 9px;
+    font-weight: 700;
+}
+.massageme{
+    display: flex;  
+    align-items: self-start; 
+}
+  form .massage{
+    width: 260px;
+    height: 200px ;
+    border-radius: 7px ;
+    background: rgb(213, 200, 175);
+    border: none;
+    outline: none;
+    padding: 10px ;
+    flex-wrap: wrap;
+  }
+form button{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 5px 26px  ;
+    border-radius: 10px ;
+    transition: 0.3s ease;
+    align-self: self-start;
+    margin: 10px 0 ;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+form button:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+}
+
+.image-forme img{
+    width: 300px ;
+    height: 300px ;
+    border-radius: 50%;
+    animation : udtodown 2s 2s infinite alternate-reverse;
+    margin-top: -35px;
+}
+@keyframes udtodown{
+    0%{
+        transform: scale( );
+
+    }
+    50%{
+        
+    }
+    100%{
+         transform: translate(0,20px );
+    }
+}
+/* end form */
+
+/* start resposive */
+
+
+@media screen and (max-width:375px) {
+    
+    .header{
+        background-color: red;
+        padding: 10px 25px ;
+    }
+   .right-head{
+    display: none;
+   }
+   .bar i{
+    display: block;
+   }
+   #home{
+    padding: 80px 20px ;
+   }
+   .me-my{
+    margin  : 0 10px  ;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+   }
+   .me-my a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px ;
+   }
+   .image{
+    margin: 10px 0  ;
+    margin-left: -10px;
+   }
+ .image img{
+    width: 260px;
+    height: 320px;
+    }
+/*  */
+    .aboutme{
+        margin-top: -20px ;
+    }
+    .aboutme .me-about a{
+        margin:0 0 10px 0  ;
+    }
+    .about .image-me img{
+        width: 200px;
+        height: 200px;
+        margin: 10px 0  80px ;
+    }
+    .about-me{
+      margin-left: -20px ;
+      width: 100%;
+    }
+.about-me h2{
+    flex-wrap: nowrap;
+    padding: 0;
+    color: red;
+    width: 200px ;
+    font-size: 22px;
+}
+/*  */
+
+.cards{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transform: translate(10% ,0);
+}
+/*  */
+.cardpro{
+    transform: translate(-5% ,0);  
+}
+/*  */
+ 
+  .form-me{
+    width:90%;
+    flex-wrap: wrap;
+  } 
+ 
+form   {
+     width: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: -20px
+}
+form .first-name{
+    width: 90px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 ;
+}
+form .first-name input{
+ margin: 1px 0 ;
+}
+ .massageme{
+    margin: 10px 0  ;
+ }
+form button{
+ margin-left: 40%;
+ margin-bottom: 30px ;
+
+}
+.image-forme {
+    margin-left: -20px ;
+}
+.image-forme img{
+    width: 255px;
+    height: 255px;
+}
+
+}
+/* end resposive */
+
+
+br{
+    color:#3b1e5d;
+    color: (#452a77, #3b1e5d);
+}
